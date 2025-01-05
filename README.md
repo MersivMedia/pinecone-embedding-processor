@@ -51,8 +51,13 @@ cp .env.example .env
 ```bash
 python init_db.py
 ```
-
-2. Run the Streamlit interface:
+2. Add pdfs to the input_pdfs folder or add websites to the list in the config folder
+   
+3a. Run the processor
+```bash
+python processor.py
+``` 
+3b. Run the Streamlit interface for the processor: (optional)
 ```bash
 streamlit run streamlit_processor.py
 ```
