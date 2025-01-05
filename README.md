@@ -4,7 +4,7 @@ This application provides a robust pipeline for processing PDF documents, extrac
 
 ## Features
 
-- PDF document processing and text extraction
+- PDF document processing and text extraction from image based documents (Anthropic vision model)
 - Document embedding generation using OpenAI's text-embedding-3-small model
 - Vector storage integration with Pinecone
 - Error handling and logging
