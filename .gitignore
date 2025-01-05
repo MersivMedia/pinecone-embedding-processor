@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.venv/
+env/
+logs/
+input_pdfs/*
+processed_pdfs/*
+error_pdfs/*
+!input_pdfs/.gitkeep
+!processed_pdfs/.gitkeep
+!error_pdfs/.gitkeep 
